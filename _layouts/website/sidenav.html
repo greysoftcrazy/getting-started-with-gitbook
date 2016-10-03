@@ -1,0 +1,17 @@
+{% extends template.self %}
+
+{% block book_summary %}
+    {% for part in summary.parts %}
+    <div class="panel panel-default">
+        {% if part.title %}
+        <div class="panel-heading">
+            <h3 class="panel-title"><strong>{{ part.title }}</strong></h3>
+        </div>
+        {% endif %}
+
+        <div class="list-group">
+            {{ articles(part.articles)| trim }}
+        </div>
+    </div>
+    {% endfor %}
+{% endblock %}

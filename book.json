@@ -1,6 +1,9 @@
 {
+	
 	"title":"Getting Started with Gitbook",
+	"version": "0.0.1",
 	"author":"Jeremy Bolding",
+	"description":"A Simple GitBook Template.",
 	"plugins": [
 		"theme-official"
 	],
