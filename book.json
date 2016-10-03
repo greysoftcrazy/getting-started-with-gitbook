@@ -1,0 +1,13 @@
+{
+	"title":"Getting Started with Gitbook",
+	"author":"Jeremy Bolding",
+	"plugins": [
+		"theme-official"
+	],
+	"pluginsConfig": {},
+	"github": {
+		"user": "thecodechef",
+		"repo": "getting-started-with-gitbook",
+		"branch": "master"
+	}
+}
